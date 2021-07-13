@@ -1,0 +1,28 @@
+{
+  "name": "@airbnb-config/eslint-config-ts",
+  "version": "1.0.1",
+  "description": "Eslint config for typescript based off Airbnb's style guide.",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwr12135/airbnb-config.git"
+  },
+  "keywords": [
+    "airbnb",
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ],
+  "author": "jwr12135",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwr12135/airbnb-config/issues"
+  },
+  "homepage": "https://github.com/jwr12135/airbnb-config/packages/eslint-config-ts",
+  "dependencies": {
+    "@airbnb-config/eslint-config-base": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint-config-airbnb-typescript": "^12.3.1"
+  }
+}

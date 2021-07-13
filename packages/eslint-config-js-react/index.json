@@ -1,0 +1,8 @@
+{
+  "extends": ["airbnb", "airbnb/hooks", "@airbnb-config/base"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

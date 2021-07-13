@@ -1,0 +1,13 @@
+{
+  "extends": ["plugin:@typescript-eslint/recommended", "airbnb-typescript", "@airbnb-config/base"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": "tsconfig.json"
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
+}

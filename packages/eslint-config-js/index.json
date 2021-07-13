@@ -1,0 +1,6 @@
+{
+  "extends": ["airbnb-base", "@airbnb-config/base"],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
+}

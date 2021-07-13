@@ -1,0 +1,29 @@
+{
+  "name": "@airbnb-config/eslint-config-js-react",
+  "version": "1.0.1",
+  "description": "Eslint config for javascript and react based off Airbnb's style guide.",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwr12135/airbnb-config.git"
+  },
+  "keywords": [
+    "airbnb",
+    "eslint",
+    "eslintconfig",
+    "react"
+  ],
+  "author": "jwr12135",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwr12135/airbnb-config/issues"
+  },
+  "homepage": "https://github.com/jwr12135/airbnb-config/packages/eslint-config-js-react",
+  "dependencies": {
+    "@airbnb-config/eslint-config-base": "^1.0.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
