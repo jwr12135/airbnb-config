@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "prettier": "^2.4.1"
+  },
+  "prettier": "./packages/prettier/index.json"
+}

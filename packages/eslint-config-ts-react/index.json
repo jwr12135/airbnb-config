@@ -8,6 +8,7 @@
     "project": "tsconfig.json"
   },
   "rules": {
+    "@typescript-eslint/naming-convention": ["error", { "format": ["camelCase", "PascalCase"] }],
     "react/react-in-jsx-scope": "off"
   }
 }

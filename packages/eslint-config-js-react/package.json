@@ -1,6 +1,6 @@
 {
   "name": "@airbnb-config/eslint-config-js-react",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Eslint config for javascript and react based off Airbnb's style guide.",
   "main": "index.json",
   "repository": {
@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/jwr12135/airbnb-config/packages/eslint-config-js-react",
   "dependencies": {
-    "@airbnb-config/eslint-config-base": "^1.0.0",
+    "@airbnb-config/eslint-config-base": "^1.1.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

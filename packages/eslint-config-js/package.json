@@ -1,6 +1,6 @@
 {
   "name": "@airbnb-config/eslint-config-js",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Eslint config for javascript based off Airbnb's style guide.",
   "main": "index.json",
   "repository": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/jwr12135/airbnb-config/packages/eslint-config-js",
   "dependencies": {
-    "@airbnb-config/eslint-config-base": "^1.0.0",
+    "@airbnb-config/eslint-config-base": "^1.1.0",
     "eslint-config-airbnb": "^18.2.1"
   }
 }
