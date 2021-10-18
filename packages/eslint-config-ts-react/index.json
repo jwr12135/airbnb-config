@@ -1,5 +1,11 @@
 {
-  "extends": ["plugin:@typescript-eslint/recommended", "airbnb-typescript", "@airbnb-config/base"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "@airbnb-config/base"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -8,7 +14,8 @@
     "project": "tsconfig.json"
   },
   "rules": {
-    "@typescript-eslint/naming-convention": ["error", { "format": ["camelCase", "PascalCase"] }],
+    "@typescript-eslint/naming-convention": "off",
+    "react/prop-types": "off",
     "react/react-in-jsx-scope": "off"
   }
 }

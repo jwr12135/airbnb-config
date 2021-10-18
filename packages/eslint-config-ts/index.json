@@ -1,6 +1,7 @@
 {
   "extends": [
     "plugin:@typescript-eslint/recommended",
+    "airbnb-base",
     "airbnb-typescript/base",
     "@airbnb-config/base"
   ],
@@ -8,6 +9,6 @@
     "project": "tsconfig.json"
   },
   "rules": {
-    "@typescript-eslint/naming-convention": ["error", { "format": ["camelCase", "PascalCase"] }]
+    "@typescript-eslint/naming-convention": "off"
   }
 }

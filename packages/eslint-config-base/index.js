@@ -6,6 +6,7 @@ module.exports = {
     node: true,
   },
   extends: [
+    'eslint:recommended',
     'plugin:unicorn/recommended',
     'plugin:promise/recommended',
     'plugin:import/recommended',
